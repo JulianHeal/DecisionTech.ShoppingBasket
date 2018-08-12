@@ -21,5 +21,7 @@ namespace ShoppingBasket
                 return products.Sum(p => p.Price);
             }
         }
+
+        public IEnumerable<IProduct> Contents => products;
     }
 }

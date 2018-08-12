@@ -7,5 +7,7 @@ namespace ShoppingBasket
         decimal Total { get; }
 
         void AddProduct(IProduct product);
+
+        IEnumerable<IProduct> Contents { get; }
     }
 }
