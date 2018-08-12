@@ -51,6 +51,7 @@
     <Compile Include="AcceptanceTests.cs" />
     <Compile Include="BasketTests.cs" />
     <Compile Include="BasketWithBreadOfferTests.cs" />
+    <Compile Include="BasketWithMilkOfferTests.cs" />
     <Compile Include="ProductFactoryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
